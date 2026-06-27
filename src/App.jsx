@@ -124,7 +124,7 @@ function App() {
             <h3 style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '1.2rem', marginBottom: '0.25rem' }}>
               INDUJA <span className="gradient-text">S</span>
             </h3>
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Full Stack Developer & Computer Science Student</p>
+            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Full Stack Developer, AI/ML Engineer & CS Student</p>
           </div>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
             &copy; {new Date().getFullYear()} Induja S. All Rights Reserved. Built with React.

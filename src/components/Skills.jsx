@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Code2, Layout, Server, Database, BrainCircuit, Wrench } from 'lucide-react';
+import { Code2, Layout, Server, Database, BrainCircuit, Wrench, Users } from 'lucide-react';
 
 function Skills() {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -7,49 +7,61 @@ function Skills() {
   const categories = [
     { id: 'all', name: 'All Competencies', icon: null },
     { id: 'programming', name: 'Languages', icon: <Code2 size={16} /> },
+    { id: 'aiml', name: 'AI & ML', icon: <BrainCircuit size={16} /> },
     { id: 'frontend', name: 'Frontend', icon: <Layout size={16} /> },
     { id: 'backend', name: 'Backend', icon: <Server size={16} /> },
     { id: 'database', name: 'Database', icon: <Database size={16} /> },
-    { id: 'concepts', name: 'Concepts', icon: <BrainCircuit size={16} /> },
-    { id: 'tools', name: 'Tools', icon: <Wrench size={16} /> }
+    { id: 'tools', name: 'Tools', icon: <Wrench size={16} /> },
+    { id: 'softskills', name: 'Soft-skills', icon: <Users size={16} /> }
   ];
 
   const skillsData = [
     // Programming
     { name: 'Java', category: 'programming', level: 90 },
-    { name: 'Python', category: 'programming', level: 75 },
-    { name: 'C Programming', category: 'programming', level: 80 },
+    { name: 'Python', category: 'programming', level: 85 },
+    { name: 'C', category: 'programming', level: 80 },
+    // AI & ML
+    { name: 'PyTorch', category: 'aiml', level: 80 },
+    { name: 'TensorFlow', category: 'aiml', level: 75 },
+    { name: 'Scikit-learn', category: 'aiml', level: 85 },
+    { name: 'Random Forest', category: 'aiml', level: 85 },
+    { name: 'NLP', category: 'aiml', level: 80 },
+    { name: 'LLM', category: 'aiml', level: 80 },
+    { name: 'ML Flow', category: 'aiml', level: 70 },
     // Frontend
-    { name: 'React js', category: 'frontend', level: 90 },
+    { name: 'HTML & CSS', category: 'frontend', level: 92 },
     { name: 'JavaScript', category: 'frontend', level: 88 },
-    { name: 'HTML5 / CSS3', category: 'frontend', level: 92 },
+    { name: 'React js', category: 'frontend', level: 90 },
     // Backend
+    { name: 'FastAPI', category: 'backend', level: 80 },
+    { name: 'SpringBoot', category: 'backend', level: 80 },
     { name: 'Node.js', category: 'backend', level: 85 },
-    { name: 'Express.js', category: 'backend', level: 85 },
-    { name: 'Spring Boot', category: 'backend', level: 78 },
     // Database
-    { name: 'MongoDB', category: 'database', level: 82 },
-    { name: 'PostgreSQL', category: 'database', level: 80 },
-    // Concepts
-    { name: 'Data Structures & Algorithms', category: 'concepts', level: 85 },
-    { name: 'Object-Oriented Programming (OOP)', category: 'concepts', level: 88 },
-    { name: 'REST API Development', category: 'concepts', level: 88 },
-    { name: 'Authentication (JWT)', category: 'concepts', level: 85 },
+    { name: 'MongoDB', category: 'database', level: 85 },
+    { name: 'PostgresSQL', category: 'database', level: 80 },
     // Tools
-    { name: 'GitHub & Git', category: 'tools', level: 88 },
-    { name: 'Visual Studio Code', category: 'tools', level: 90 },
-    { name: 'Android Studio', category: 'tools', level: 70 }
+    { name: 'Streamlit', category: 'tools', level: 80 },
+    { name: 'Google Colab', category: 'tools', level: 85 },
+    { name: 'Jupyter', category: 'tools', level: 85 },
+    { name: 'GitHub', category: 'tools', level: 88 },
+    { name: 'Visual Studio', category: 'tools', level: 90 },
+    { name: 'Android Studio', category: 'tools', level: 75 },
+    // Soft-skills
+    { name: 'Leadership', category: 'softskills', level: 90 },
+    { name: 'Critical Thinking', category: 'softskills', level: 85 },
+    { name: 'Problem Solving', category: 'softskills', level: 90 }
   ];
 
   // Get icon for category display
   const getCategoryIcon = (catId) => {
     switch (catId) {
       case 'programming': return <Code2 size={20} style={{ color: 'var(--primary)' }} />;
+      case 'aiml': return <BrainCircuit size={20} style={{ color: 'var(--primary)' }} />;
       case 'frontend': return <Layout size={20} style={{ color: 'var(--primary)' }} />;
       case 'backend': return <Server size={20} style={{ color: 'var(--primary)' }} />;
       case 'database': return <Database size={20} style={{ color: 'var(--primary)' }} />;
-      case 'concepts': return <BrainCircuit size={20} style={{ color: 'var(--primary)' }} />;
       case 'tools': return <Wrench size={20} style={{ color: 'var(--primary)' }} />;
+      case 'softskills': return <Users size={20} style={{ color: 'var(--primary)' }} />;
       default: return null;
     }
   };

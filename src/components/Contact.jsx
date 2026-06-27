@@ -124,7 +124,7 @@ function Contact() {
               Let's build something great together.
             </h3>
             <p style={{ color: 'var(--text-secondary)', marginBottom: '2.5rem', lineHeight: 1.6 }}>
-              Whether you have an opening, an interesting project idea, or just want to talk about open source or DSA, my inbox is open!
+              Whether you have an opening, an intelligent app idea, or just want to discuss full-stack architectures, AI/ML models, or open source, my inbox is open!
             </p>
 
             {/* Channels Grid */}

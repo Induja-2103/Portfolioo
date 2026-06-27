@@ -11,18 +11,18 @@ function About() {
 
   const focusAreas = [
     {
-      title: 'Frontend Engineering',
-      desc: 'Crafting responsive, beautiful layouts using React and state managers with smooth client-side workflows.',
+      title: 'AI & Machine Learning',
+      desc: 'Designing predictive systems, intelligent workflows, and custom ML pipelines using PyTorch, Scikit-Learn, and NLP/LLM integrations.',
       color: 'var(--primary)'
     },
     {
-      title: 'Backend Systems',
-      desc: 'Developing scalable backend systems and REST APIs with Node.js/Express and Spring Boot frameworks.',
+      title: 'Frontend Engineering',
+      desc: 'Crafting responsive, beautiful dashboards and user-friendly interfaces with React.js and interactive state management.',
       color: 'var(--accent)'
     },
     {
-      title: 'Database & Security',
-      desc: 'Optimizing and querying database layers (MongoDB, PostgreSQL) along with JWT user authentications.',
+      title: 'Backend & APIs',
+      desc: 'Developing robust API communication models, database schemas, and server environments using FastAPI, Node.js, and Spring Boot.',
       color: '#f59e0b'
     }
   ];
@@ -37,12 +37,10 @@ function About() {
           {/* Main Story & Profile Description */}
           <div style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}>
             <p style={{ fontSize: '1.15rem', color: 'var(--text-primary)', marginBottom: '1.5rem', lineHeight: 1.8 }}>
-              I am a passionate <span style={{ color: 'var(--primary)', fontWeight: 600 }}>Full Stack Developer</span> and Computer Science Engineering Student. 
-              I thrive on building scalable, user-centric web applications and solving complex algorithmic challenges. 
-              With a strong foundation in Data Structures, Object-Oriented Programming, and database systems, I design backend API architectures and client interfaces that integrate seamlessly.
+              I am an <span style={{ color: 'var(--primary)', fontWeight: 600 }}>Aspiring Technology Professional</span> with a strong foundation in software development, artificial intelligence, and modern computing technologies. I seek to apply my technical expertise, creativity, and analytical thinking to develop impactful solutions, drive innovation, and deliver measurable value while continuously enhancing my capabilities.
             </p>
-            <p style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: 1.7 }}>
-              My engineering education at Dr. NGP Institute of Technology coupled with real-world internship experiences in Java and Web Development has prepared me to deliver clean code and optimized system performance.
+            <p style={{ fontSize: '1.05rem', color: 'var(--text-secondary)', lineHeight: 1.7 }}>
+              My academic journey in Computer Science and Engineering at Dr. NGP Institute of Technology, combined with hands-on internships in Java and Full Stack web development, has equipped me to design high-quality frontend interfaces and secure, scalable backend architectures.
             </p>
           </div>
 

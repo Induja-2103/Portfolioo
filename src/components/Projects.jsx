@@ -16,71 +16,70 @@ function Projects() {
   const projectsData = [
     {
       id: 1,
-      title: 'StudentBuddy – AI Mentorship Platform',
-      shortDesc: 'AI-driven full-stack mentorship and guidance platform with real-time roles and analytics.',
-      icon: <Sparkles size={36} style={{ color: '#0ea5e9' }} />,
-      gradient: 'linear-gradient(135deg, #0284c7 0%, #0ea5e9 100%)',
-      category: ['Full Stack', 'React/Node.js', 'AI'],
-      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT Auth', 'Socket.io', 'OpenAI API'],
+      title: 'Reviora – AI Code Review & Repo Analysis',
+      shortDesc: 'AI-powered code review and repository analysis platform automating software quality assessment.',
+      icon: <Code size={36} style={{ color: '#10b981' }} />,
+      gradient: 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
+      category: ['Full Stack', 'AI & ML', 'React & Node.js'],
+      tech: ['React.js', 'Node.js', 'FastAPI', 'MongoDB', 'Scikit-Learn', 'XGBoost', 'PyTorch', 'CodeBERT'],
+      github: 'https://github.com/Induja-2103/Reviora',
       features: [
-        'Built a complete role-based system separating students, mentors, and administrators.',
-        'Integrated real-time chat functionality enabling direct student-mentor communication.',
-        'Engineered an AI-powered guidance helper module utilizing customized endpoints for study plans.',
-        'Designed scalable REST APIs for test generation, score analytics, and account management.'
+        'Developed an AI-powered code review and repository analysis platform using React, Node.js, FastAPI, and MongoDB to automate software quality assessment from GitHub repositories.',
+        'Built custom machine learning models for bug detection, vulnerability analysis, code smell identification, and code quality scoring using Scikit-Learn, XGBoost, and PyTorch.',
+        'Integrated a fine-tuned CodeBERT model to generate intelligent code explanations, fix recommendations, automated documentation, and repository summaries through an interactive dashboard.'
       ],
-      impact: 'Allows academic departments to easily scale student tutoring and streamline feedback collection.'
+      impact: 'Automates code standards compliance and vulnerability screening directly from GitHub repository integrations.'
     },
     {
       id: 2,
-      title: 'Feed The Need – Food Waste Manager',
-      shortDesc: 'A dynamic food recovery and customization app with dynamic pricing and menus.',
-      icon: <ShoppingBag size={36} style={{ color: '#10b981' }} />,
-      gradient: 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
-      category: ['Full Stack', 'React/Node.js', 'Databases'],
-      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'State Management'],
+      title: 'SmartEco – AI Campus Resource Optimizer',
+      shortDesc: 'End-to-end resource optimization platform predicting campus energy consumption with 87% accuracy.',
+      icon: <Sparkles size={36} style={{ color: '#0ea5e9' }} />,
+      gradient: 'linear-gradient(135deg, #0284c7 0%, #0ea5e9 100%)',
+      category: ['Full Stack', 'AI & ML'],
+      tech: ['React.js', 'FastAPI', 'Python', 'Random Forest', 'RESTful APIs', 'Data Visualization'],
+      github: 'https://github.com/Induja-2103/Smart-Eco',
       features: [
-        'Developed full user registration and authentication for restaurants and local NGO partners.',
-        'Implemented customizable menu items and live cart updates to coordinate excess food redistribution.',
-        'Created a dynamic pricing engine and state logic enabling custom packaging selections.',
-        'Designed lightweight backend APIs for listing, modifying, and claiming available food batches.'
+        'Built an end-to-end AI-driven resource optimization platform using React.js, FastAPI, and Python to predict campus energy consumption through a Random Forest machine learning model with 87% accuracy.',
+        'Developed and deployed RESTful APIs for model inference, data processing, and real-time communication between frontend and backend systems.',
+        'Engineered an analytical dashboard featuring interactive visualizations and trend forecasting, enabling data-driven decision-making for efficient resource management.'
       ],
-      impact: 'Successfully streamlines surplus distribution, helping reduce local food waste.'
+      impact: 'Enables campus administrators to make data-driven energy planning and load distribution decisions.'
     },
     {
       id: 3,
-      title: 'Food Buds – Food Customization App',
-      shortDesc: 'Interactive order workflow application with real-time cart pricing and billing systems.',
-      icon: <ShoppingBag size={36} style={{ color: '#a855f7' }} />,
+      title: 'StudentBuddy – AI Powered Mentorship',
+      shortDesc: 'Mentorship platform where students receive personalized academic guidance via Google Gemini Pro.',
+      icon: <Sparkles size={36} style={{ color: '#a855f7' }} />,
       gradient: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)',
-      category: ['React/Node.js', 'Full Stack'],
-      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'State Context', 'Session Handling'],
+      category: ['Full Stack', 'AI & ML', 'React & Node.js'],
+      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT Auth', 'Google Gemini Pro', 'Performance Analytics'],
+      github: 'https://github.com/Induja-2103/StudentBuddy',
       features: [
-        'Developed an interactive cart drawer with instant pricing calculators for side item additions.',
-        'Structured Express.js session handling to keep user orders secure during checkout.',
-        'Optimized client-side rendering speed for menu layouts, preventing lag on mobile devices.',
-        'Integrated a responsive invoice generator that formats orders instantly upon submission.'
+        'Built StudentBuddy, an AI-powered mentorship platform using React, Node.js, Express, and MongoDB, where students can get personalized academic guidance through Google Gemini Pro.',
+        'Added secure login with JWT, role-based access for students and admins, real-time mentor chat, and automated tests with performance analytics.',
+        'Created admin features to manage users, create tests, and monitor student progress, helping track learning performance more effectively.'
       ],
-      impact: 'Improves digital dining experiences through optimized item customizer controls.'
+      impact: 'Empowers students with instantaneous study support and provides educators with comprehensive progress dashboards.'
     },
     {
       id: 4,
       title: 'Kapiyum Kadhalum – Café Ordering Web App',
-      shortDesc: 'Full-stack cafe ordering platform built using Spring Boot backend and PostgreSQL storage.',
+      shortDesc: 'Full-stack café ordering platform with PostgreSQL backend storage and real-time billing.',
       icon: <Coffee size={36} style={{ color: '#f59e0b' }} />,
       gradient: 'linear-gradient(135deg, #d97706 0%, #f59e0b 100%)',
       category: ['Full Stack', 'Java & Databases'],
       tech: ['React.js', 'Spring Boot', 'Java', 'PostgreSQL', 'RESTful APIs', 'JDBC Connection'],
+      github: 'https://github.com/Induja-2103/Coffee',
       features: [
-        'Designed a structured relational database in PostgreSQL for managing orders and menu catalogs.',
-        'Built powerful Spring Boot controllers exposing secure endpoints for order lifecycle management.',
-        'Ensured highly efficient query routines to fetch menu updates and user purchase histories.',
-        'Created a beautiful interface that simplifies digital bill checkouts and receipt exports.'
+        'Developed a full-stack café ordering platform using React.js and Spring Boot, enabling users to browse menus, customize items, place orders, and generate real-time billing.',
+        'Designed and implemented RESTful APIs integrated with PostgreSQL for efficient management of menu items, customer orders, and transaction processing.'
       ],
-      impact: 'Brings enterprise-ready backend safety to local dining through Spring Boot validation structures.'
+      impact: 'Ensures highly scalable order entry and safe transaction storage through robust relational schema models.'
     }
   ];
 
-  const filters = ['All', 'Full Stack', 'React/Node.js', 'Java & Databases'];
+  const filters = ['All', 'Full Stack', 'AI & ML', 'React & Node.js', 'Java & Databases'];
 
   // Match search and category filter
   const filteredProjects = projectsData.filter((project) => {
@@ -394,7 +393,7 @@ function Projects() {
                 {/* Action Links */}
                 <div style={{ display: 'flex', gap: '1rem', borderTop: '1px solid var(--border-color)', paddingTop: '1.5rem' }}>
                   <button 
-                    onClick={() => alert(`Simulating connection to GitHub repo: https://github.com/Induja-2103/${activeModal.title.split(' ')[0]}`)}
+                    onClick={() => window.open(activeModal.github, '_blank')}
                     className="btn btn-primary"
                     style={{ flex: 1, justifyContent: 'center' }}
                   >

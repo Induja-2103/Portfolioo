@@ -24,6 +24,7 @@ function Hero() {
 
   const titles = [
     'Full Stack Developer',
+    'AI/ML Engineer',
     'Computer Science Student',
     'Java & React Specialist',
     'Open Source Enthusiast'
@@ -138,7 +139,7 @@ function Hero() {
               lineHeight: 1.7
             }}
           >
-            Full Stack Developer specializing in building clean, interactive frontends with React and highly-optimized backend architectures using Node.js & Spring Boot.
+            Full Stack & AI/ML Engineer specializing in building intelligent web platforms, combining React frontends, FastAPI/Node.js backends, and customized machine learning architectures.
           </p>
 
           {/* Social Icons Bar */}
@@ -216,7 +217,7 @@ function Hero() {
             >
               <div><span style={{ color: '#ec4899' }}>const</span> developer = &#123;</div>
               <div style={{ paddingLeft: '1.5rem' }}>name: <span style={{ color: 'var(--primary)' }}>'Induja S'</span>,</div>
-              <div style={{ paddingLeft: '1.5rem' }}>role: <span style={{ color: 'var(--primary)' }}>'Full Stack Engineer'</span>,</div>
+              <div style={{ paddingLeft: '1.5rem' }}>role: <span style={{ color: 'var(--primary)' }}>'Full Stack & AI/ML Engineer'</span>,</div>
               <div style={{ paddingLeft: '1.5rem' }}>skills: [</div>
               <div style={{ paddingLeft: '3rem' }}>
                 <span style={{ color: 'var(--accent)' }}>'React'</span>, <span style={{ color: 'var(--accent)' }}>'Node.js'</span>,

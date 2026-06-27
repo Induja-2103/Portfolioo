@@ -12,11 +12,11 @@ function ExperienceTimeline() {
       duration: 'Jun 2025',
       icon: <Briefcase size={18} />,
       points: [
-        'Developed responsive and reusable UI components using React.js, ensuring cross-browser compatibility and seamless performance across devices.',
-        'Implemented dynamic and interactive frontend features using React hooks, JavaScript, and AJAX to enhance user engagement and responsiveness.',
-        'Optimized client-side performance through efficient state management and asynchronous data handling, enabling smooth client-server communication.'
+        'Developed full-stack web applications using React.js, Node.js, Express.js, and MySQL, building responsive and user-friendly interfaces.',
+        'Implemented authentication systems, CRUD operations, RESTful APIs, and database integrations to enhance application functionality and data management.',
+        'Strengthened skills in software engineering, logical problem-solving, and full-stack application development relevant to AI-powered web solutions.'
       ],
-      tags: ['React.js', 'JavaScript', 'AJAX', 'State Management', 'UI/UX']
+      tags: ['React.js', 'Node.js', 'Express.js', 'MySQL', 'Full Stack', 'RESTful APIs']
     },
     {
       role: 'Java Developer Intern',
@@ -25,12 +25,11 @@ function ExperienceTimeline() {
       duration: 'May 2025',
       icon: <Briefcase size={18} />,
       points: [
-        'Developed modular Java applications using OOP principles, improving code reusability and maintainability.',
-        'Implemented JDBC-based database connectivity for multiple applications, enabling efficient data storage and retrieval.',
-        'Collaborated in writing clean, efficient, and optimized code following best development practices.',
-        'Improved backend processing performance by 35% through optimized query handling and structured data management.'
+        'Developed and optimized Java-based applications using Object-Oriented Programming (OOP) principles, emphasizing scalable and maintainable software design.',
+        'Implemented efficient data processing and database interaction modules using JDBC and SQL, improving data retrieval and storage performance.',
+        'Collaborated in software development workflows, gaining hands-on experience in backend development, data management, and system optimization.'
       ],
-      tags: ['Java', 'OOP', 'JDBC', 'SQL', 'Query Optimization']
+      tags: ['Java', 'OOP', 'JDBC', 'SQL', 'Backend']
     }
   ];
 
@@ -42,8 +41,8 @@ function ExperienceTimeline() {
       duration: 'Jun 2025 - Mar 2026',
       icon: <Users size={18} />,
       points: [
-        'Organized interactive sessions on Open Source & AI collaboration.',
-        'Guided 60+ members in hands-on projects and open-source contributions.'
+        'Organize interactive sessions on Open Source & AI collaboration.',
+        'Guide 60 members in hands-on projects and open-source contributions.'
       ],
       tags: ['Leadership', 'Open Source', 'Mentoring', 'Event Management']
     },
@@ -82,6 +81,17 @@ function ExperienceTimeline() {
         'Completed HSC Board Examinations with a score of 89.2%.'
       ],
       tags: ['Mathematics', 'Computer Science', 'Physics', 'Chemistry']
+    },
+    {
+      role: 'Secondary School Leaving Certificate (SSLC)',
+      company: 'Shri Makesh Vidyalaya Matriculation School',
+      location: 'Tirupur, India',
+      duration: '2021',
+      icon: <GraduationCap size={18} />,
+      points: [
+        'Completed SSLC Board Examinations.'
+      ],
+      tags: ['Science', 'Mathematics', 'General Studies']
     }
   ];
 
